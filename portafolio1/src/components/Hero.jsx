@@ -21,11 +21,11 @@ export const Hero = () => {
           </h1>
           <p className='text-gray-500 text-2xl leading-[2.5rem]'>Help find solutions that are intuitive and aligned with the client's business goals. We provide high-quality services. </p>
           <div className='flex flex-col md:flex-row item-center gap-4'>
-            <button className='w-full bg-primary text-white py-2 px-8 rounded-xl text-xl xl:w-auto'>
+            <button className='w-full bg-primary text-white py-2 px-8 rounded-xl text-xl xl:w-auto hover:text-gray-300 transition-colors'>
               Contact Us
             </button>
             <button className='w-full xl:w-auto flex items-center justify-start text-left gap-4 py-2 px-8'>
-              <RiPlayLine className='bg-secondary rounded-full text-primary p-4 box-content'/>
+              <RiPlayLine className='bg-secondary rounded-full text-primary p-4 box-content hover:text-gray-300 transition-colors'/>
               Watch our <br/> introduction video
             </button>
           </div>
