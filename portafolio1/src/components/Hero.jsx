@@ -4,13 +4,13 @@ import { RiCheckboxBlankCircleFill, RiPlayLine, RiStarFill, RiCheckboxBlankFill}
 
 export const Hero = () => {
   return (
-    <section className='h-[90vh] grid grid-cols-1 md:grid-cols-8'>
+    <section className='min-h-[90vh] grid grid-cols-1 xl:grid-cols-8'>
         {/* Information */}
-        <div className='md:col-span-5 flex items-center justify-center p-16'>
-          <div className='flex flex-col gap-4'>
-          <h1 className='text-7xl font-bold leading-[8rem]'>
-          Web Design ImpactFul Digital 
-            <span className='text-primary py-2 px-6 left-4 border-8 border-primary relative'>
+        <div className='md:col-span-5 flex items-center justify-center xl-p-16 p-8'>
+          <div className='flex flex-col gap-8'>
+          <h1 className='text-5xl xl:text-7xl font-bold xl:leading-[7.5rem]'>
+          Web Design ImpactFul Digital {" "}
+            <span className='text-primary py-2 px-6 border-8 border-primary relative inline-block'>
             Products
             <RiCheckboxBlankCircleFill className='text-base absolute -left-5 -top-5 rounded-full text-white bg-primary p-2 box-content'/>
             <RiCheckboxBlankCircleFill className='text-base absolute -right-5 -top-5 rounded-full text-white bg-primary p-2 box-content'/>
@@ -19,11 +19,11 @@ export const Hero = () => {
             </span>
           </h1>
           <p className='text-gray-500 text-2xl leading-[2.5rem]'>Help find solutions that are intuitive and aligned with the client's business goals. We provide high-quality services. </p>
-          <div className='flex item-center gap-4'>
-            <button className='bg-primary text-white py-2 px-8 rounded-xl text-xl'>
+          <div className='flex flex-col md:flex-row item-center gap-4'>
+            <button className='w-full bg-primary text-white py-2 px-8 rounded-xl text-xl xl:w-auto'>
               Contact Us
             </button>
-            <button className='py-2 px-8 rounded-xl text-xl flex item-center gap-4  text-left'>
+            <button className='w-full xl:w-auto flex items-center justify-start text-left gap-4 py-2 px-8'>
               <RiPlayLine className='bg-secondary rounded-full text-primary p-4 box-content'/>
               Watch our <br/> introduction video
             </button>
@@ -31,11 +31,12 @@ export const Hero = () => {
           </div>
         </div>
         {/* Image */}
-        <div className='md:col-span-3 flex items-center justify-center relative'>
+        <div className='md:col-span-3 flex items-center justify-center relative p-8'>
+          {/* Content Image */}
           <div>
             <img
               src='hero.png'
-              className='w-[450px] h-[450px] object-cover -mt-[105px]'
+              className='w-[250px] h-[250px] md:w-[450px] md:h-[450px] object-cover xl:-mt-28'
             />
             <div className='relative bg-white shadow-xl rounded-lg p-4 flex flex-col justify-center max-w-[250px] mx-auto gap-2 -mt-12'>
               <div className='flex items-center'>
@@ -76,7 +77,12 @@ export const Hero = () => {
             </div>
 
           </div>
-          <div className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[380px] h-[380px] border-[10px] border-primary bg-white rounded-full -z-10'></div>
+          {/* Circle */}
+          <div className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 md:w-[380px] md:h-[380px] w-[280px] h-[280px] border-[10px] border-primary bg-white rounded-full -z-10'></div>
+          {/* Logos */}
+          <img className='w-10 h-10 md:w-20 md:h-20 object-cover rounded-full border-l-8 border-gray-600 absolute md:top-[15%] md:right-[5%] right-[10%] top-[15%]' src='figma.png'/>
+          <img className='w-10 h-10 md:w-20 md:h-20 object-cover rounded-full  absolute top-[80%] right-[80%] bg-white -rotate-12' src='sketch.png'/>
+          <img className='w-10 h-10 md:w-20 md:h-20 object-cover rounded-full border-l-8 border-gray-600 absolute -top-[0%] right-[75%]' src='adobe.png'/>
         </div>
     </section>
   )

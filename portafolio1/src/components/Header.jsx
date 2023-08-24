@@ -17,7 +17,7 @@ export const Header = () => {
             <RiCheckboxBlankCircleFill className='absolute -left-3 -bottom-3 text-primary -z-10'/>
             </a>
         </div>
-        <nav className={`fixed bg-white w-[80%] md:w-[40%] xl:w-full h-full ${showMenu ? "left-0" : "-left-full"} top-0 flex-col flex xl:static flex-1 xl:flex-row items-center gap-10 justify-center transition-all duration-500`}>
+        <nav className={`fixed bg-white w-[80%] md:w-[40%] xl:w-full h-full ${showMenu ? "left-0" : "-left-full"} top-0 flex-col flex xl:static flex-1 xl:flex-row items-center gap-10 justify-center transition-all duration-500 z-50`}>
             <a href='#' className=''>Home</a>
             <a href='#' className=''>About Us</a>
             <a href='#' className=''>Services</a>
