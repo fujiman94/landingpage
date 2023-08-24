@@ -1,4 +1,5 @@
 import React from 'react'
+// Icons
 import { RiCheckboxBlankCircleFill, RiPlayLine, RiStarFill, RiCheckboxBlankFill} from "react-icons/ri";
 
 
@@ -41,23 +42,23 @@ export const Hero = () => {
             <div className='relative bg-white shadow-xl rounded-lg p-4 flex flex-col justify-center max-w-[250px] mx-auto gap-2 -mt-12'>
               <div className='flex items-center'>
                 <img
-                className='w-10 h-10 object-contain rounded-full ring-2 ring-gray-300'
+                className='w-10 h-10 object-cover rounded-full ring-2 ring-gray-300'
                 src='https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg?w=1380&t=st=1692716658~exp=1692717258~hmac=46307a0f3cb26b55b0f38569eb73de6b37139094f526a0faf27d558d19063fb4'
                 />
                 <img
-                className='w-10 h-10 object-contain rounded-full ring-2 ring-gray-300 -ml-4 bg-white'
+                className='w-10 h-10 object-cover rounded-full ring-2 ring-gray-300 -ml-4 bg-white'
                 src='https://img.freepik.com/foto-gratis/retrato-mujer-casual-sonriente_171337-4168.jpg?w=1380&t=st=1692716664~exp=1692717264~hmac=1204e874ca71701725fc8be15234ce0e3108d69f63249061d311f438cfdf4f55'
                 />
                 <img
-                className='w-10 h-10 object-contain rounded-full ring-2 ring-gray-300 -ml-4 bg-white'
+                className='w-10 h-10 object-cover rounded-full ring-2 ring-gray-300 -ml-4 bg-white'
                 src='https://img.freepik.com/foto-gratis/morena-guapa-confiada-capucha-naranja-que-te-muestra-mejor-precio-senalando-dedo-arriba-mirando-camara-sonrisa-radiante-satisfecha-anuncia-producto-que-presenta-nueva-aplicacion_176420-52483.jpg?w=1380&t=st=1692716671~exp=1692717271~hmac=6ce9d6e8d72d2747111f3a6427f33f0208e1f9058c2042c58c76f0b6d30e97a0'
                 />
                 <img
-                className='w-10 h-10 object-contain rounded-full ring-2 ring-gray-300 -ml-4 bg-white'
+                className='w-10 h-10 object-cover rounded-full ring-2 ring-gray-300 -ml-4 bg-white'
                 src='https://img.freepik.com/foto-gratis/retrato-atractivo-repartidor-asiatico-camiseta-azul-gorra-feliz-sonriendo_74952-3150.jpg?w=1380&t=st=1692716686~exp=1692717286~hmac=064b7a098c007e888f812d09556b75785b648d5e4b16c3161e164b3d772911ab'
                 />
                 <img
-                className='w-10 h-10 object-contain rounded-full ring-2 ring-gray-300 -ml-4 bg-white'
+                className='w-10 h-10 object-cover rounded-full ring-2 ring-gray-300 -ml-4 bg-white'
                 src='https://img.freepik.com/foto-gratis/retrato-hombre-camisa-blanca_171337-11986.jpg?w=1380&t=st=1692716744~exp=1692717344~hmac=e5060bc38c9b06e0ec3f0de4f076647c058c931d76ae389468e99d1df0977ad4'
                 />
               </div>
